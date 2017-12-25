@@ -18,13 +18,13 @@ class PlgSystemUnsetTypes extends JPlugin
 			$data = $doc->getHeadData();
 			
 			foreach($data['styleSheets'] as &$params){
-				unset($params['type']);
+				unset($params['type'], $params['mime']);
 			}
 			unset($params);
 			$doc->_styleSheets = $data['styleSheets'];
 			
 			foreach($data['scripts'] as &$params){
-				unset($params['type']);
+				unset($params['type'], $params['mime']);
 			}
 			unset($params);
 			$doc->_scripts = $data['scripts'];
