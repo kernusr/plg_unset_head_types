@@ -28,6 +28,26 @@ class PlgSystemUnsetTypes extends JPlugin
 			}
 			unset($params);
 			$doc->_scripts = $data['scripts'];
+			
+			if(count($data['script']) > 0){
+				$customScriptTag = '<script>' . "\n";
+				foreach($data['script'] as $script){
+					$customScriptTag .= $script  . "\n";
+				}
+				$customScriptTag .= '</script>' . "\n";
+				$doc->addCustomTag($customScriptTag);
+				$doc->_script = array();
+			}
+			
+			if(count($data['style']) > 0){
+				$customStyleTag = '<style>' . "\n";
+				foreach($data['style'] as $style){
+					$customStyleTag .= $style  . "\n";
+				}
+				$customStyleTag .= '</style>' . "\n";
+				$doc->addCustomTag($customStyleTag);
+				$doc->_style = array();
+			}
 		}
 	}
 }
