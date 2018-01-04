@@ -3,9 +3,9 @@
 ## The plugin to unset the `type` attribute for JavaScript and CSS
 
 ### Description
-In HTML5 standart the `type` attribute is unnecessary for JavaScript and CSS resources. The HTML parser of w3c catch warning about this. To successfully pass the test, you must delete all the attributes [type = "text/javascript"] and [type = "text/css"] from the page.
+In HTML5 standart the `type` attribute is unnecessary for JavaScript and CSS resources. The HTML parser of w3c catch warning about this. To successfully pass the test, you must delete all the attributes `[type = "text/javascript"]` and `[type = "text/css"]` from the page.
 
-This plugin for Joomla! will do everything in automatic mode. It will remove all the attributes [type = "text/javascript"] and [type = "text/css"] in the head section of page.
+This plugin for Joomla! will do everything in automatic mode. It will remove all the attributes `[type = "text/javascript"]` and `[type = "text/css"]` in the head section of page.
 The plugin removes the attribute from external and inline resources.
 
 ### !!!Warning!!!
@@ -25,3 +25,29 @@ For the correct working of the plugin, you need to:
 2. In `search tools` select `system` type of plugin
 3. In ordering set the plugin as the last position
 4. Enable plugin
+
+## Плагин удаления атрибута `type` для JavaScript и CSS
+
+### Описание
+В стандарте HTML5 нет необходимости прописывать атрибут `type` для ресурсов JavaScript и CSS. HTML-анализатор w3c предупреждает об этом. Чтобы успешно пройти проверку, вы должны удалить все атрибуты `[type = "text/javascript"]` и `[type = "text/css"]` со страницы.
+
+Этот плагин для Joomla! сделает все в автоматическом режиме. Он удалит все атрибуты `[type = "text/javascript"]` и `[type = "text/css"]` в секции `head` на странице.
+Плагин удаляет атрибут у подключенных и инлайновых ресурсов.
+
+### !!! Предупреждение !!!
+Плагин работает только с ресурсами, включенными через Joomla! API. Вы должны самостоятельно удалить атрибуты, если ресурсы подключены вручную.
+
+### Установка
+
+1. [Скачайте](https://github.com/AwesomIO/plg_unset_head_types/releases/download/v1.0.0/plg_unset_head_types.zip "Скачать последнюю версию плагина") установочный пакет
+2. Перейдите в Панель управления Joomla! -> Расширения -> Менеджер расширений -> Установка
+3. Нажмите кнопку `Обзор` и выберите скачанный ранее архив.
+4. Следуйте инструкциям на экране
+
+### Использование
+После установки плагин будет отключен.
+Для правильной работы плагина вам необходимо:
+1. Перейдите в Панель управления Joomla! -> Расширения -> Плагины
+2. В `инструменты поиска` выберите тип плагина `system`
+3. Установите порядок сортировки плагина в последнюю позицию
+4. Включите плагин
