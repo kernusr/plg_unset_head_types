@@ -13,7 +13,7 @@ The plugin works only with resources included via the Joomla! API. You must remo
 
 ### Installation
 
-1. [Download](https://github.com/AwesomIO/plg_unset_head_types/releases/download/v1.0.0/plg_unset_head_types.zip "Download latest release of plugin") the installation package
+1. [Download](https://github.com/AwesomIO/plg_unset_head_types/releases/download/v2.0.0/plg_unset_head_types.zip "Download latest release of plugin") the installation package
 2. Go to Joomla! Administrator -> Extensions -> Manage -> Install
 3. Click `Browse` button and choose your package
 4. Behove the instructions on the screen
@@ -39,7 +39,7 @@ For the correct working of the plugin, you need to:
 
 ### Установка
 
-1. [Скачайте](https://github.com/AwesomIO/plg_unset_head_types/releases/download/v1.0.0/plg_unset_head_types.zip "Скачать последнюю версию плагина") установочный пакет
+1. [Скачайте](https://github.com/AwesomIO/plg_unset_head_types/releases/download/v2.0.0/plg_unset_head_types.zip "Скачать последнюю версию плагина") установочный пакет
 2. Перейдите в Панель управления Joomla! -> Расширения -> Менеджер расширений -> Установка
 3. Нажмите кнопку `Обзор` и выберите скачанный ранее архив.
 4. Следуйте инструкциям на экране
