@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.0" type="plugin" group="system" method="install" client="site">
-    <name>Unset Head Types</name>
+<extension version="3.0" type="plugin" group="system" method="upgrade" client="site">
+    <name>PLG_SYSTEM_UNSETTYPES</name>
     <author>Artem (kern.usr) Vasilev</author>
     <creationDate>December 21st, 2017</creationDate>
-    <copyright></copyright>
+    <copyright>Copyright © 2018 AvesomIO. All rights reserved.</copyright>
     <authorEmail>kern.usr@gmail.com</authorEmail>
     <authorUrl>awesomio.org</authorUrl>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
-    <description>Removes the attribute "type" in the head section of the included styles and scripts.</description>
+    <description>PLG_SYSTEM_UNSETTYPES_XML_DESCRIPTION</description>
     <files>
         <filename plugin="unsettypes">unsettypes.php</filename>
+		<folder>language</folder>
     </files>
 </extension>
