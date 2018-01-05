@@ -1,10 +1,27 @@
 <?php
+/**
+ * @package     Joomla.Plugin
+ * @subpackage  System.unsettypes
+ *
+ * @copyright   Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved.
+ * @license     License GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
 defined('_JEXEC') or die;
 
 jimport('joomla.plugin.plugin');
 
+/**
+ * Plug-in to unset the `type` attribute for JavaScript and CSS
+ *
+ * @package     Joomla.Plugin
+ * @subpackage  System.unsettypes
+ * @since       3.0
+ */
+ 
 class PlgSystemUnsetTypes extends JPlugin
 {
+	
 	public function __construct(&$subject, $config)
 	{
 		parent::__construct($subject, $config);
